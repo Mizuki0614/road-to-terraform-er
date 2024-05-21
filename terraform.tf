@@ -3,13 +3,13 @@
 
 terraform {
 
-  cloud {
-    organization = "waon-omh-tfmcloud"
+  # cloud {
+  #   organization = "waon-omh-tfmcloud"
 
-    workspaces {
-      name = "terraform-pj-ws"
-    }
-  }
+  #   workspaces {
+  #     name = "terraform-pj-ws"
+  #   }
+  # }
 
   required_providers {
     aws = {
