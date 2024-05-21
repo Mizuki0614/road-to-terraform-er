@@ -3,13 +3,13 @@
 
 terraform {
 
-  cloud {
-    organization = "organization-name"
+  # cloud {
+  #   organization = "waon-omh-tfmcloud"
 
-    workspaces {
-      name = "learn-terraform"
-    }
-  }
+  #   workspaces {
+  #     name = "terraform-pj-ws"
+  #   }
+  # }
 
   required_providers {
     aws = {
@@ -17,6 +17,5 @@ terraform {
       version = "~> 5.31.0"
     }
   }
-
   required_version = "~> 1.2"
 }

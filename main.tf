@@ -3,6 +3,12 @@
 
 provider "aws" {
   region = var.region
+  default_tags {
+    tags = {
+      Env   = "hcp-terraform-practice"
+      PoC   = "True"
+    }
+  }
 }
 
 data "aws_ami" "ubuntu" {
