@@ -1,7 +1,7 @@
 # HCP Terraform Getting Started
 
 HCL TerraformでのProject管理にかかわるプラクティスレポジトリです。  
-下記に当チュートリアルで学習したことを記載します。
+下記に当チュートリアルで学習したことを記載します。  
 [Get Started - HCP Terraform](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started)
 - HCP Terraformでできること
   - OrganizationにWorkspacesを作成する
