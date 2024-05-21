@@ -40,3 +40,6 @@ HCL TerraformでのProject管理にかかわるプラクティスレポジトリ
     - **Automatic speculative plans**を有効化することで、プルリクエストをmainブランチにマージした場合にHCP Terraformがトリガーされる
     - リポジトリ内の特定のパスへの変更時、または指定した形式のタグをプッシュするたびに実行をトリガーするようにワークスペースを構成することもできる
 
+## 未対応Note
+- [Terraform CloudのPlanの結果をGithub Actionsを使ってGithub上で確認する](https://dev.classmethod.jp/articles/terraform-cloud-plan-result-githubactions/)
+- [Terraform CloudがValutやAWS,Azure,Google Cloudに対してOIDCで動的なクレデンシャル生成に対応](https://dev.classmethod.jp/articles/terraform-cloud-dynamic-provider-credentials/)
